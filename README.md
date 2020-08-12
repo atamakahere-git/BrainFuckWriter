@@ -6,7 +6,7 @@ A simple program written in C, that converts a string to its equivalent BrainFuc
 ![Working](working.jpg)
 
 - Compile the C program with GNU GCC compiler using 
- `$ gcc BrainFuck.c -o BrainFuckWriter`
+ `$ gcc BrainFuckWriter.c -o BrainFuckWriter`
 - Run the compiled program 
 `$ ./BrainFuckWriter`
 - Input a string and hit enter
