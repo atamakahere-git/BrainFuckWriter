@@ -15,7 +15,7 @@ int main()
     }
     FILE *fileptr;
     fileptr = fopen("output.bf", "w");
-    fputs("Code written by BrainFuck Writer\n", fileptr);
+    fputs("Code written by BrainFuckWriter\nhttps://github.com/tanveerraza789/BrainFuckWriter\n", fileptr);
     fputs(">++++++++++ \n", fileptr); // Setting loop counter to 10
     fputc('[', fileptr); //Loop start
     fputc('\n', fileptr);
